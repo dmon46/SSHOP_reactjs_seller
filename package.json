@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@arco-design/web-react": "2.65.0",
+    "antd": "5.22.5",
+    "axios": "1.7.9",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "react-router": "7.0.2",
+    "sass": "1.83.0"
   },
   "devDependencies": {
     "@eslint/js": "9.17.0",

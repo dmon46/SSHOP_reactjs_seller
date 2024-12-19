@@ -12,6 +12,7 @@ Thinking in React: The first task của a React developer không phải là vi�
 - React Router
 - Axios
 - Ant design
+- Socket.io (an real-time library)
 
 React.JS
 - Was first appeared in 2012 and migrated the market from multi-page websites with server-side rendering to single-page applications with client-side rendering
@@ -19,25 +20,9 @@ React.JS
 - Own a single page and no reloading required
 - Real-time features. Example: Binance, SSI
 
-React Router
-- a
-- a
-
-Axios
-- a
-- a
-
-Ant Design
-- a
-- a
-
-Redux Toolkit
-- a
-- a
-
-//todo: Real-time library:
-- a
-- a
+Yarn
+- yarn: install all
+- yarn add library-name@latest --exact
 
 ## Project
 - Vite:
