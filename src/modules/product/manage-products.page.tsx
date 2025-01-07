@@ -1,5 +1,6 @@
 import { Flex, theme } from "antd";
 import { Content } from "antd/es/layout/layout";
+import ProductList from "../../components/product/product.list";
 
 const ManageProducts = () => {
     const { token: { colorBgContainer, borderRadiusLG } } = theme.useToken();
@@ -18,7 +19,7 @@ const ManageProducts = () => {
                     borderRadius: borderRadiusLG,
                 }}
             >
-                Manage Products
+                <ProductList></ProductList>
             </Content>
         </>
     );

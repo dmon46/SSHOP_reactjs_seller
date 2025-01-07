@@ -3,14 +3,14 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 import './style.scss';
 import '@arco-design/web-react/dist/css/arco.css';
-import HomePage from './pages/home/home.page';
-import ManageOrders from './pages/order/manage-orders.page';
-import ManageCancellations from './pages/order/manage-cancellations.page';
-import ManageProducts from './pages/product/manage-products.page';
-import ProductRatings from './pages/product/product-ratings.page';
-import PrivatePage from './pages/app/private.page';
-import PublicPage from './pages/app/public.page';
-import { Login, Signup } from './pages/access';
+import HomePage from './modules/home/home.page';
+import ManageOrders from './modules/order/manage-orders.page';
+import ManageCancellations from './modules/order/manage-cancellations.page';
+import ManageProducts from './modules/product/manage-products.page';
+import ProductRatings from './modules/product/product-ratings.page';
+import PrivatePage from './modules/app/private.page';
+import PublicPage from './modules/app/public.page';
+import { Login, Signup } from './modules/access';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
