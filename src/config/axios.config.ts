@@ -1,4 +1,4 @@
-import axiosClient from "axios";
+import axiosClient, { AxiosError, AxiosResponse } from "axios";
 
 /**
  * Creates an initial 'axios' instance with custom settings.
@@ -10,9 +10,9 @@ const axios = axiosClient.create({
 });
 
 axios.interceptors.response.use(
-    (res) => res.data,
-    async (error) => {
-        return error?.response?.data ?? Promise.reject(error);
+    (axiosRes: AxiosResponse) => axiosRes.data,
+    async (axiosError: AxiosError) => {
+        return axiosError?.response?.data ?? Promise.reject(axiosError);
     }
 );
 

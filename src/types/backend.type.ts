@@ -5,6 +5,14 @@ export interface IApiRes<T> {
     result: T;
 }
 
+export type TPage<T> = {
+    totalPage: number;
+    totalElements: number;
+    page: number;
+    size: number;
+    content: T[];
+}
+
 export interface IAccount {
     authenticated: boolean;
     token: string;

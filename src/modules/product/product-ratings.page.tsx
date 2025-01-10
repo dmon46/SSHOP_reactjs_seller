@@ -1,14 +1,18 @@
-import { Flex, theme } from "antd";
+import { Button, Flex, message, notification, theme } from "antd";
 import { Content } from "antd/es/layout/layout";
 
 const ProductRatings = () => {
     const { token: { colorBgContainer, borderRadiusLG } } = theme.useToken();
 
+    const handleClick = () => {
+        message.success('Button clicked!');
+    };
+
     return (
         <>
-            <Flex>
+            {/* <Flex>
                 <h1 className='dmon-title-header'>Product Ratings</h1>
-            </Flex>
+            </Flex> */}
             <Content
                 style={{
                     padding: 24,
@@ -19,7 +23,10 @@ const ProductRatings = () => {
                 }}
             >
                 Product Ratings
-            </Content>
+                <Button onClick={handleClick}>
+                    XXX
+                </Button>
+            </Content >
         </>
     );
 };

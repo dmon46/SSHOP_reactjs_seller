@@ -40,3 +40,5 @@ Reference:
 - React.JS: https://react.dev/learn
 - Vite.JS: https://vite.dev/guide
 - HTML events: https://www.w3schools.com/tags/ref_eventattributes.asp
+
+shift + alt + 0: clear the redundant imports
